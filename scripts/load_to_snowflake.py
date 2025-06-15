@@ -4,8 +4,8 @@ import snowflake.connector
 def load_to_snowflake():
     df = pd.read_csv('data/processed/cleaned_sales.csv')    
     conn = snowflake.connector.connect(
-        user='BHARATH982',
-        password='DataEngineerJob@2025',
+        user='****',
+        password='*****',
         account='ds28415.central-india.azure',  
         warehouse='SNOWFLAKE_LEARNING_WH',
         database='snowflake_learning_db',
