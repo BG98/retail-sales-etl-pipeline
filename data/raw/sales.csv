@@ -1,0 +1,4 @@
+product_id,quantity,price_per_unit,order_date
+1001,2,500,2023-06-01
+1002,1,700,2023-06-02
+1003,4,150,2023-06-03
